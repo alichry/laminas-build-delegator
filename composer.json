@@ -1,0 +1,30 @@
+{
+    "name": "alichry/laminas-build-delegator",
+    "description": "Quickly add caching capability to built services with custom options",
+    "type": "library",
+    "require": {
+        "php": "^7.1",
+        "laminas/laminas-servicemanager": "^3.4",
+        "laminas/laminas-mvc": "^3.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ali Cherry",
+            "email": "ctcrc@alicherry.net"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^7.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "AliChry\\Laminas\\BuildDelegator\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "AliChry\\Laminas\\BuildDelegator\\Test\\": "test/"
+        }
+    }
+}
